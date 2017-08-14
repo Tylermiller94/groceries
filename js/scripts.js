@@ -7,21 +7,11 @@ function groc(){
     return groc.toUpperCase();
   });
   upper.sort();
-  alert(upper);
-
-  for (var i = 0; i < upper.length < i++){
-      $("#groc" + (i + 1)).text(gro[i]);
+  for (var x = 0; x < upper.length; x++){
+      $("#groc" + (x + 1)).text(upper[x]);
   }
-
   $("#list").hide();
   $("#hidden-list").show();
-
-
 }
-
-
-
-
 $(document).ready(function() {
-
 });
